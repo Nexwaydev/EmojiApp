@@ -1,0 +1,92 @@
+
+:root {
+  --primary-color: blue;
+  --secondary-color: #0072b5 ;
+  --white-color: #fff;
+ 
+}
+body{
+  background-color: #ddd;
+}
+h1{
+  color: var(--primary-color);
+}
+
+.display{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.display-content{
+  position: relative;
+  width: 500px;
+  background: var(--white-color);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid var(--primary-color);
+}
+@media (max-width: 767px) {
+  .display-content {
+    width: 300px;
+    
+  }
+}
+@media (max-width: 467px) {
+  .display-content {
+    width: 200px;
+    
+  }
+}
+#emojiContainer{
+  font-size: 25px;
+  width: 200px;
+  
+}
+button{
+  padding: 13px;
+  border: none;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  width: 178px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 17px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: var(--secondary-color) ;
+}
+.p-b{
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .p-bb {
+    margin-bottom: 4px; 
+  }
+}
+@media (max-width: 467px) {
+  .p-bb {
+    margin-bottom: 4px; 
+  }
+}
+input{
+  margin-top: 15px;
+  width: 60%;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+}
+.team-img{
+  width: 100px;
+}
+.container{
+  width: 100%;
+}
+
+
